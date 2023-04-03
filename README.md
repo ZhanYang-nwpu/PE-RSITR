@@ -72,6 +72,13 @@ python train.py
 Run ```train.py``` to train the models.
 Evaluate trained models using ```test.py```.
 
+
+### Remote Sensing Image-Text Retrieval
+<p align="middle">
+    <img src="fig/result.jpg">
+</p>
+
+
 ## Reference
 If you found this code useful, please cite the paper. Welcome :+1:_<big>`Fork and Star`</big>_:+1:, then I will let you know when we update.
 ```
