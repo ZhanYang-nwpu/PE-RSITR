@@ -31,23 +31,37 @@ We recommended the following dependencies.
 We expect the directory and file structure to be the following:
 ```
 ./                      # current (project) directory
-├── models/             # Files for implementation of RSVG model
-├── utils/              # Some scripts for data processing and helper functions 
-├── saved_models/       # Savepath of pth/ckpt and pre-trained model
+├── layers/             # Files for implementation of PE-RSITR model
+├── checkpoint/         # Savepath of pth/ckpt and pre-trained model
 ├── logs/               # Savepath of logs
-├── data_loader.py      # Load data
-├── main.py             # Main code for training, validation, and test
+├── vocab/              # 
+├── data.py             # Load data
+├── engine.py           # Functions of training, validation, and test
+├── loss.py             # Implementation of loss function
+├── utils.py            # Some scripts for data processing and helper functions 
+├── vocab.py            # 
+├── train.py            # Main code for training, validation
+├── test.py             # Main code for test
 ├── README.md
-└── RSVGD/              # DIOR-RSVG dataset
-    ├── Annotations/    # Query expressions and bounding boxes
-    │   ├── 00001.xml/
-    │   └── ..some xml files..
-    ├── JPEGImages/     # Remote sensing images
-    │   ├── 00001.jpg/
-    │   └── ..some jpg files..
-    ├── train.txt       # ID of training set
-    ├── val.txt         # ID of validation set
-    └── test.txt        # ID of test set
+└── data/                        # Dataset
+    ├── rsicd_precomp/           # RSICD
+        ├── rsicd_images/        # Remote sensing images
+        ├── train_caps.txt       # Captions of training and validation set
+        ├── train_filename.txt   # Image name of training and validation set
+        ├── test_caps.txt        # Captions of test set
+        └── test_filename.txt    # Image name of test set
+    ├── rsitmd_precomp/          # RSITMD
+        ├── rsitmd_images/       # Remote sensing images
+        ├── train_caps.txt       # Captions of training and validation set
+        ├── train_filename.txt   # Image name of training and validation set
+        ├── test_caps.txt        # Captions of test set
+        └── test_filename.txt    # Image name of test set
+    ├── ucm_precomp/             # UCM
+        ├── ucm_images/          # Remote sensing images
+        ├── train_caps.txt       # Captions of training and validation set
+        ├── train_filename.txt   # Image name of training and validation set
+        ├── test_caps.txt        # Captions of test set
+        └── test_filename.txt    # Image name of test set
 ```
 
 ## Training and Evaluation
