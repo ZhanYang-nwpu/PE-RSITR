@@ -13,7 +13,7 @@ It has achieved the SOTA performance in the RSVG task on our constructed RSVG da
 
 ### Network Architecture
 <p align="middle">
-    <img src="fig/MGVLF.jpg">
+    <img src="fig/model.jpg">
 </p>
 
 
