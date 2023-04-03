@@ -22,7 +22,7 @@ It has achieved the SOTA performance in the RSVG task on our constructed RSVG da
 We recommended the following dependencies.
 - Python 3.10.8
 - PyTorch 1.13.1
-- NumPy 1.19.2
+- NumPy 1.23.4
 - cuda 11.6
 - opencv 4.7.0
 - torchvision 0.14.1
