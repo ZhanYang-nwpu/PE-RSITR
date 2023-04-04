@@ -9,7 +9,7 @@ This is the novel and sophisticated PETL framework for the RS image-text retriev
 
 1. We design a simple yet effective loss function: the hybrid multi-modal contrastive (HMMC) loss for PETL-based RS image-text retrieval. Experimental results prove that the proposed HMMC loss is effective in further improving the performance on top of the proposed MRS-Adapter.
 2. We provide comprehensive empirical studies for the PETL-based RS image-text retrieval task. Our qualitative and quantitative results demonstrate that the proposed method is promising and of great potential for practical applications.
-3. Extensive experiments show that our approach can significantly reduce 98.9\% of fine-tuning parameters without performance sacrifice compared to full fine-tuning. The comprehensive benchmark results are insightful for future research.
+3. Extensive experiments show that our approach can significantly reduce 98.9\% of fine-tuning parameters without performance sacrifice compared to full fine-tuning. Our retrieval performance exceeds traditional methods by 7-13\%. The comprehensive benchmark results are insightful for future research.
 
 
 
