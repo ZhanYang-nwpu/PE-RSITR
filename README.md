@@ -27,7 +27,13 @@ We recommended the following dependencies.
 - opencv 4.7.0
 - torchvision 0.14.1
 
-## File structure
+
+## Download Data
+The RSITR dataset can be downloaded from our [Google Drive](https://drive.google.com/drive/folders/1hTqtYsC6B-m4ED2ewx5oKuYZV13EoJp_?usp=sharing). The download link is available below:
+```
+https://drive.google.com/drive/folders/1hTqtYsC6B-m4ED2ewx5oKuYZV13EoJp_?usp=sharing
+```
+
 We expect the directory and file structure to be the following:
 ```
 ./                      # current (project) directory
