@@ -29,9 +29,9 @@ We recommended the following dependencies.
 
 
 ## Download Data
-The RSITR dataset can be downloaded from our [Google Drive](https://drive.google.com/drive/folders/1hTqtYsC6B-m4ED2ewx5oKuYZV13EoJp_?usp=sharing). The download link is available below:
+The RSITR dataset can be downloaded from our [Google Drive](https://drive.google.com/drive/folders/1F6WBQB-1PLqABh-uDv9m-KPdChakWcWY?usp=sharing). The download link is available below:
 ```
-https://drive.google.com/drive/folders/1hTqtYsC6B-m4ED2ewx5oKuYZV13EoJp_?usp=sharing
+https://drive.google.com/drive/folders/1F6WBQB-1PLqABh-uDv9m-KPdChakWcWY?usp=sharing
 ```
 
 We expect the directory and file structure to be the following:
