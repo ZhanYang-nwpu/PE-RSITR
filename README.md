@@ -1,14 +1,16 @@
-# PE-RSITR: Parameter-Efficient Transfer Learning for Remote Sensing Image-Text Retrieval
+# Parameter-Efficient Transfer Learning for Remote Sensing Image-Text Retrieval
 ##### Author: Zhan Yang 
-This is the offical PyTorch code for paper **"PE-RSITR: Parameter-Efficient Transfer Learning for Remote Sensing Image-Text Retrieval"**, [Paper]().
+This is the offical PyTorch code for paper **"Parameter-Efficient Transfer Learning for Remote Sensing Image-Text Retrieval"**, [Paper]().
 
 ## Please share a <font color='orange'>STAR ⭐</font> if this project does help
 
 ## Introduction
-This is Multi-Granularity Visual Language Fusion (MGVLF) Network, the PyTorch source code of the paper "PE-RSITR: Parameter-Efficient Transfer Learning for Remote Sensing Image-Text Retrieval". 
-It is built on top of the [TransVG](https://github.com/djiajunustc/TransVG) in PyTorch. 
-Our method is a transformer-based method for visual grounding for remote sensing data (RSVG). 
-It has achieved the SOTA performance in the RSVG task on our constructed RSVG dataset.
+This is the novel and sophisticated PETL framework for the RS image-text retrieval task, the PyTorch source code of the paper "Parameter-Efficient Transfer Learning for Remote Sensing Image-Text Retrieval". Specifically, the proposed framework consists of the pretrained CLIP model, the multimodal remote sensing adapter (MRS-Adapter), and a hybrid multi-modal contrastive (HMMC) learning objective.
+
+1. We design a simple yet effective loss function: the hybrid multi-modal contrastive (HMMC) loss for PETL-based RS image-text retrieval. Experimental results prove that the proposed HMMC loss is effective in further improving the performance on top of the proposed MRS-Adapter.
+2. We provide comprehensive empirical studies for the PETL-based RS image-text retrieval task. Our qualitative and quantitative results demonstrate that the proposed method is promising and of great potential for practical applications.
+3. Extensive experiments show that our approach can significantly reduce 98.9\% of fine-tuning parameters without performance sacrifice compared to full fine-tuning. The comprehensive benchmark results are insightful for future research.
+
 
 
 ### Network Architecture
