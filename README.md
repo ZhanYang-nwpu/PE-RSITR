@@ -81,7 +81,7 @@ Run ```train.py``` to train the models.
 Evaluate trained models using ```test.py```.
 
 
-### Remote Sensing Image-Text Retrieval
+## Remote Sensing Image-Text Retrieval
 <p align="middle">
     <img src="fig/result.jpg">
 </p>
