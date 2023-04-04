@@ -78,8 +78,8 @@ python train.py
 ```
 
 Run ```train.py``` to train the models.
-Evaluate trained models using ```test.py```.
 
+Remember to set "opt.timestep" to your needs in the parameters and evaluate trained models using ```test.py```.
 
 ## Remote Sensing Image-Text Retrieval
 <p align="middle">
