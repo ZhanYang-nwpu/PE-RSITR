@@ -20,16 +20,6 @@ This is the novel and sophisticated PETL framework for the RS image-text retriev
 
 
 
-## Requirements and Installation
-We recommended the following dependencies.
-- Python 3.10.8
-- PyTorch 1.13.1
-- NumPy 1.23.4
-- cuda 11.6
-- opencv 4.7.0
-- torchvision 0.14.1
-
-
 ## Download Data
 The RSITR dataset can be downloaded from our [Google Drive](https://drive.google.com/drive/folders/1F6WBQB-1PLqABh-uDv9m-KPdChakWcWY?usp=sharing). The download link is available below:
 ```
@@ -39,17 +29,6 @@ https://drive.google.com/drive/folders/1F6WBQB-1PLqABh-uDv9m-KPdChakWcWY?usp=sha
 We expect the directory and file structure to be the following:
 ```
 ./                      # current (project) directory
-├── layers/             # Files for implementation of PE-RSITR model
-├── checkpoint/         # Savepath of pth/ckpt and pre-trained model
-├── logs/               # Savepath of logs
-├── vocab/              # 
-├── data.py             # Load data
-├── engine.py           # Functions of training, validation, and test
-├── loss.py             # Implementation of loss function
-├── utils.py            # Some scripts for data processing and helper functions 
-├── vocab.py            # 
-├── train.py            # Main code for training, validation
-├── test.py             # Main code for test
 ├── README.md
 └── data/                        # Dataset
     ├── rsicd_precomp/           # RSICD
@@ -72,14 +51,6 @@ We expect the directory and file structure to be the following:
         └── test_filename.txt    # Image name of test set
 ```
 
-## Training and Evaluation
-```
-python train.py
-```
-
-Run ```train.py``` to train the models.
-
-Remember to set "opt.timestep" to your needs in the parameters and evaluate trained models using ```test.py```.
 
 ## Remote Sensing Image-Text Retrieval
 <p align="middle">
