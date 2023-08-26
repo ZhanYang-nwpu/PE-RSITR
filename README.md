@@ -1,6 +1,6 @@
 # Parameter-Efficient Transfer Learning for Remote Sensing Image-Text Retrieval
 ##### Author: Zhan Yang 
-This is the offical PyTorch code for paper **"Parameter-Efficient Transfer Learning for Remote Sensing Image-Text Retrieval"**, [Paper](https://arxiv.org/abs/2308.12509).
+This is the offical PyTorch code for paper **"Parameter-Efficient Transfer Learning for Remote Sensing Image-Text Retrieval"**. [[Paper](https://arxiv.org/abs/2308.12509)]
 
 ## Please share a <font color='orange'>STAR ⭐</font> if this project does help
 
