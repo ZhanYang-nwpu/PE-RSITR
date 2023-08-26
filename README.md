@@ -58,6 +58,17 @@ We expect the directory and file structure to be the following:
 </p>
 
 ## Results
+<p align="middle">
+    <img src="fig/result_RSICD.png">
+</p>
+
+<p align="middle">
+    <img src="fig/result_RSITMD.png">
+</p>
+
+<p align="middle">
+    <img src="fig/result_UCM.png">
+</p>
 
 
 ## Reference
