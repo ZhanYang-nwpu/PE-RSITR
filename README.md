@@ -92,4 +92,4 @@ If you found this code useful, please cite the paper. Welcome :+1:_<big>`Fork an
 ```
 
 ## Acknowledgments
-We benchmark extensive state-of-the-art PETL methods on the PE-RSITR task. We thank to the authors for releasing source codes. I would like to thank Xiong zhitong and Yuan yuan for helping the manuscript. I also thank the School of Artificial Intelligence, OPtics, and ElectroNics (iOPEN), Northwestern Polytechnical University for supporting this work.
+We benchmark extensive state-of-the-art PETL methods on the PE-RSITR task. Our code is based on GaLR(https://github.com/xiaoyuan1996/GaLR). We sincerely appreciate their contributions and authors for releasing source codes. I would like to thank Xiong zhitong and Yuan yuan for helping the manuscript. I also thank the School of Artificial Intelligence, OPtics, and ElectroNics (iOPEN), Northwestern Polytechnical University for supporting this work.
