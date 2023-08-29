@@ -1,6 +1,6 @@
 # Parameter-Efficient Transfer Learning for Remote Sensing Image-Text Retrieval
 ##### Author: Yang Zhan
-This is the offical repository for paper **"Parameter-Efficient Transfer Learning for Remote Sensing Image-Text Retrieval"**. [[Paper](https://arxiv.org/abs/2308.12509)]
+This is the offical repository for paper **"Parameter-Efficient Transfer Learning for Remote Sensing Image-Text Retrieval"**. [[Paper](https://ieeexplore.ieee.org/document/10231134)]
 
 ## Please share a <font color='orange'>STAR ⭐</font> if this project does help
 
