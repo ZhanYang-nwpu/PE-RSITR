@@ -74,13 +74,15 @@ We expect the directory and file structure to be the following:
 ## Reference
 If you found this code useful, please cite the paper. Welcome :+1:_<big>`Fork and Star`</big>_:+1:, then I will let you know when we update.
 ```
-@ARTICLE{yuan2023parameterefficient,
-  author={Yuan, Yuan and Yang Zhan and Zhitong Xiong},
+@ARTICLE{10231134,
+  author={Yuan, Yuan and Zhan, Yang and Xiong, Zhitong},
   journal={IEEE Transactions on Geoscience and Remote Sensing}, 
   title={Parameter-Efficient Transfer Learning for Remote Sensing Image-Text Retrieval}, 
   year={2023},
-  doi={10.1109/TGRS.2023.3308969}
-  }
+  volume={},
+  number={},
+  pages={1-1},
+  doi={10.1109/TGRS.2023.3308969}}
 ```
 ```
 @article{yuan2023parameterefficient,
