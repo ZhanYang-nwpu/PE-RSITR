@@ -84,14 +84,7 @@ If you found this code useful, please cite the paper. Welcome :+1:_<big>`Fork an
   pages={1-1},
   doi={10.1109/TGRS.2023.3308969}}
 ```
-```
-@article{yuan2023parameterefficient,
-      title={Parameter-Efficient Transfer Learning for Remote Sensing Image-Text Retrieval}, 
-      author={Yuan Yuan and Yang Zhan and Zhitong Xiong},
-      journal={arXiv preprint arXiv:2308.12509},
-      year={2023}
-}
-```
+
 
 ## Acknowledgments
 We benchmark extensive state-of-the-art PETL methods on the PE-RSITR task. Our code is based on [GaLR](https://github.com/xiaoyuan1996/GaLR). We sincerely appreciate their contributions and authors for releasing source codes. I would like to thank Xiong zhitong and Yuan yuan for helping the manuscript. I also thank the School of Artificial Intelligence, OPtics, and ElectroNics (iOPEN), Northwestern Polytechnical University for supporting this work.
