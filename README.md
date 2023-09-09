@@ -77,11 +77,11 @@ If you found this code useful, please cite the paper. Welcome :+1:_<big>`Fork an
 @ARTICLE{10231134,
   author={Yuan, Yuan and Zhan, Yang and Xiong, Zhitong},
   journal={IEEE Transactions on Geoscience and Remote Sensing}, 
-  title={Parameter-Efficient Transfer Learning for Remote Sensing Image-Text Retrieval}, 
+  title={Parameter-Efficient Transfer Learning for Remote Sensing Image–Text Retrieval}, 
   year={2023},
-  volume={},
+  volume={61},
   number={},
-  pages={1-1},
+  pages={1-14},
   doi={10.1109/TGRS.2023.3308969}}
 ```
 
