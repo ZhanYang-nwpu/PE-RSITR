@@ -1,10 +1,12 @@
 # Parameter-Efficient Transfer Learning for Remote Sensing Image-Text Retrieval
-##### Author: Yang Zhan
+##### Author: Yuan Yuan, Yang Zhan, Zhitong Xiong
 This is the official repository for paper **"Parameter-Efficient Transfer Learning for Remote Sensing Image-Text Retrieval"**. [[Paper](https://ieeexplore.ieee.org/document/10231134)]
+
+**School of Artificial Intelligence, OPtics, and ElectroNics (iOPEN), Northwestern Polytechnical University**
 
 ## Please share a <font color='orange'>STAR ⭐</font> if this project does help
 
-## Introduction
+## 💬 Introduction
 This is the novel and sophisticated PETL framework for the RS image-text retrieval task, the PyTorch source code of the paper "Parameter-Efficient Transfer Learning for Remote Sensing Image-Text Retrieval". Specifically, the proposed framework consists of the pretrained CLIP model, the multimodal remote sensing adapter (MRS-Adapter), and a hybrid multi-modal contrastive (HMMC) learning objective.
 
 1. We design a simple yet effective loss function: the hybrid multi-modal contrastive (HMMC) loss for PETL-based RS image-text retrieval. Experimental results prove that the proposed HMMC loss is effective in further improving the performance on top of the proposed MRS-Adapter.
@@ -13,14 +15,14 @@ This is the novel and sophisticated PETL framework for the RS image-text retriev
 
 
 
-### Network Architecture
+### 🚀Network Architecture
 <p align="middle">
     <img src="fig/model.jpg">
 </p>
 
 
 
-## Download Data
+## 📦Download Data
 The RSITR dataset can be downloaded from our [Google Drive](https://drive.google.com/drive/folders/1F6WBQB-1PLqABh-uDv9m-KPdChakWcWY?usp=sharing). The download link is available below:
 ```
 https://drive.google.com/drive/folders/1F6WBQB-1PLqABh-uDv9m-KPdChakWcWY?usp=sharing
@@ -52,12 +54,12 @@ We expect the directory and file structure to be the following:
 ```
 
 
-## Remote Sensing Image-Text Retrieval Visualization
+## 👁️Remote Sensing Image-Text Retrieval Visualization
 <p align="middle">
     <img src="fig/result.jpg">
 </p>
 
-## Results
+## 🔍Results
 <p align="middle">
     <img src="fig/result_RSICD.png">
 </p>
@@ -71,7 +73,7 @@ We expect the directory and file structure to be the following:
 </p>
 
 
-## Reference
+## 📜Reference
 If you found this code useful, please cite the paper. Welcome :+1:_<big>`Fork and Star`</big>_:+1:, then I will let you know when we update.
 ```
 @ARTICLE{10231134,
@@ -86,5 +88,5 @@ If you found this code useful, please cite the paper. Welcome :+1:_<big>`Fork an
 ```
 
 
-## Acknowledgments
+## 🙏Acknowledgments
 We benchmark extensive state-of-the-art PETL methods on the PE-RSITR task. Our code is based on [GaLR](https://github.com/xiaoyuan1996/GaLR). We sincerely appreciate their contributions and authors for releasing source codes. I would like to thank Xiong zhitong and Yuan yuan for helping the manuscript. I also thank the School of Artificial Intelligence, OPtics, and ElectroNics (iOPEN), Northwestern Polytechnical University for supporting this work.
