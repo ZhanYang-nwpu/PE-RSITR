@@ -6,6 +6,12 @@ This is the official repository for paper **"Parameter-Efficient Transfer Learni
 
 ## Please share a <font color='orange'>STAR ⭐</font> if this project does help
 
+## 📢 Latest Updates
+- **Jan-11-2024**: MRS-Adapter code is released. 🔥🔥
+- **Aug-10-2023**: dataset is released. 🔥🔥
+- **Aug-10-2023**: paper is accepted by T-GRS. 🔥🔥
+---
+
 ## 💬 Introduction
 This is the novel and sophisticated PETL framework for the RS image-text retrieval task, the PyTorch source code of the paper "Parameter-Efficient Transfer Learning for Remote Sensing Image-Text Retrieval". Specifically, the proposed framework consists of the pretrained CLIP model, the multimodal remote sensing adapter (MRS-Adapter), and a hybrid multi-modal contrastive (HMMC) learning objective.
 
